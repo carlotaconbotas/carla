@@ -160,7 +160,7 @@
         padding-top: 82px;
     }
      .product_style_3 .product_descr {
-        font-size: 13px;
+        font-size: 28px;
     }
 }
  @media (min-width: 768px) and (max-width: 991px) {
@@ -207,16 +207,19 @@
         height: 300px;
     }
      .product-heading h2 {
-        font-size: 18px;
+        font-size: 39px;
     }
      .product-detail-side span {
-        font-size: 19px;
+        font-size: 29px;
     }
      .product_style_3 .product_descr {
-        font-size: 14px;
+        font-size: 27px;
     }
 }
  @media (min-width: 576px) and (max-width: 767px) {
+    .product_style_3 .product_descr {
+        font-size: 27px;
+    }
      .right_header_info {
         margin-top: -50px;
          padding:0;
@@ -268,7 +271,7 @@
          flex-wrap: wrap;
     }
      ul.sociel {
-        margin-top: 20px;
+        margin-right: -34px;
     }
      ul.sociel li{
          margin-bottom: 30px;
@@ -280,10 +283,10 @@
         margin-bottom: 30px;
     }
      .product-heading h2 {
-        font-size: 18px;
+        font-size: 39px;
     }
      .product-detail-side span {
-        font-size: 19px;
+        font-size: 29px;
     }
 }
  @media (max-width: 575px) {
@@ -353,10 +356,15 @@
          margin-bottom: 20px;
     }
      ul.sociel {
-        margin-top: 20px;
+        margin-top: -50px;
+            margin-right: -34px;
     }
      ul.sociel li{
          margin-bottom: 30px;
+    }
+    .abajo {
+    
+    padding-left: 0%;
     }
      .newtetter .tetter {
         width: 161px;
@@ -383,6 +391,6 @@
         font-size: 19px;
     }
      .product_style_3 .product_descr {
-        font-size: 11px;
+        font-size: 27px;
     }
 }
