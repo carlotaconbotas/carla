@@ -137,16 +137,46 @@ ol {
 p {
 	margin: 0px;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 32px;
 	line-height: 24px;
 }
 
+.right_header_info ul li a.dotted {
+    color: #555;
+    font-weight: 300;
+    
+    margin: 0px;
+	line-height: 24px;
+}
+a.dotted {
+    border-bottom: 1px #555 dotted;
+}
+
+p.modelos {
+    margin-top: 0.5em;
+    margin-bottom: -0.25em;
+}
+p.menu {
+	margin: 0px;
+	font-weight: 300;
+	font-size: 2em;
+	line-height: 24px;
+}
 a {
-	color: #222222;
+	color: #555;
 	text-decoration: none;
 	outline: none !important;
 }
-
+a:hover {
+  color: #555;
+}
+ {
+	color: #17a2b8;
+}
+ul.sociel li a:hover {
+    color: #555;
+    
+}
 a,
 .btn {
 	text-decoration: none !important;
@@ -1659,7 +1689,7 @@ input[type="radio"] .styled:checked+label::after {
 .right_header_info {
     width: 100%;
     float: left;
-    padding: 8px 0 0;
+    /*padding: 8px 0 0;-*/
 }
 
 .right_header_info ul {
@@ -2131,11 +2161,11 @@ ul.sociel li a:hover {color: #d2390a;}
 	margin-top: 90px;
 }
 p.logo_title {
-    font-size: 44px;
-    font-weight: lighter;
+    font-size: 3em;
+    font-weight: 500;
     text-transform: capitalize;
-    color: #000000
-
+    color: #555;
+    margin-top: 6%;
 }
 
 .contact h3 {

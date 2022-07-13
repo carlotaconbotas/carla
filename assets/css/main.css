@@ -272,7 +272,9 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+	a.dotted {
+    border-bottom-style: dotted;
+	}
 /* Button */
 
 	input[type="submit"],
@@ -629,9 +631,12 @@ input, select, textarea {
 }
 
 		ul li {
-    padding-left: 0.5em;
-    font-size: 2.1em;
+    padding-left: 0.5
+em
+;
+    font-size: 1.8em;
 }
+
 
 		ul.alt {
 			list-style: none;
@@ -956,7 +961,7 @@ input, select, textarea {
 
 		#thumbnails article {
 			position: relative;
-			width: 50%;
+			width: 25%;
 			background: #101010;
 			outline: 0;
 		}

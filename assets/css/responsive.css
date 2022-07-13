@@ -162,8 +162,23 @@
      .product_style_3 .product_descr {
         font-size: 28px;
     }
+    p.logo_title {
+    font-size: 2.25em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #555;
+    margin-top: 6%;
+}
 }
  @media (min-width: 768px) and (max-width: 991px) {
+    p.logo_title {
+    font-size: 2.15em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #555;
+    margin-top: 6%;
+}
+    
      .right_header_info {
          padding:0;
     }
