@@ -2146,7 +2146,6 @@ ul.sociel li {
 	}
 
 ul.sociel li a {
-    color: #17a2b8;
     width: 40px;
     height: 40px;
     float: right;
@@ -2156,7 +2155,8 @@ ul.sociel li a {
     
 }
 
-ul.sociel li a:hover {color: #d2390a;}
+a.hover {color: #17a2b8;}
+a.hover:hover {color: #555; !important}
 .contact {
 	margin-top: 90px;
 }
@@ -2167,7 +2167,12 @@ p.logo_title {
     color: #555;
     margin-top: 6%;
 }
-
+a.footer_logo {
+    color: black;
+}
+a.footer_logo:hover {
+    color: #17a2b8; !important
+}
 .contact h3 {
 	color: #fff;
 	font-weight: 500;
@@ -2858,6 +2863,11 @@ a.article:hover {
     top: 0;
     right: 0;
 }
-
+i.fas.fa-mobile-alt {
+    margin-right: 7px;
+}
+i.fas.fa-cube {
+    margin-right: 4px;
+}
 
 
