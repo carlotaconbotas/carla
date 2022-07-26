@@ -386,6 +386,9 @@ a.btn.btn-info.producto {
     padding: 5px;
     font-size: 44px;
 }
+body.minicart-showing {
+    z-index: 99;
+}
 /* Form */
 
 	form {
