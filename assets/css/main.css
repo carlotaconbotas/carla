@@ -387,7 +387,7 @@ a.btn.btn-info.producto {
     font-size: 44px;
 }
 body.minicart-showing {
-    z-index: 99;
+    z-index: 9999;
 }
 /* Form */
 
