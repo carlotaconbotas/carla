@@ -380,14 +380,11 @@ p.modelos {
 			pointer-events: none;
 			opacity: 0.25;
 		}
-a.btn.btn-info.producto {
-font-size: 29px;
-}
-detail-contant p {
-color: #707070;
-font-size: 27px;
-line-height: 30px;
-font-weight: 300;
+a.btn.btn-info.producto {
+    background-color: #17a2b8;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 44px;
 }
 /* Form */
 
