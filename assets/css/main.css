@@ -844,7 +844,7 @@ em
 		overflow-y: auto;
 		text-align: right;
 		visibility: visible;
-		z-index: 10000;
+		z-index: 1;
 		right: 0;
 	}
 
