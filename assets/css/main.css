@@ -134,8 +134,23 @@ input, select, textarea {
 }
 			
 #main {
-	width: 20.5em;
-    
+    -moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    -webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    -ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    width: 20.5em;
+    height: 100%;
+    background: #fff;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: right;
+    visibility: visible;
+    z-index: 1;
+    right: 0;
 }
 section.legend {
 padding: 0 2.25em 0 2.25em;
@@ -875,24 +890,24 @@ em
 /* Main */
 
 	#main {
-		-moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-webkit-overflow-scrolling: touch;
-		position: fixed;
-		top: 0;
-		width: 22.5em;
-		height: 100%;
-		background: #fff;
-		outline: 0;
-		overflow-x: hidden;
-		overflow-y: auto;
-		text-align: right;
-		visibility: visible;
-		z-index: 1;
-		right: 0;
-	}
+    -moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    -webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    -ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    width: 32.5em;
+    height: 100%;
+    background: #fff;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: right;
+    visibility: visible;
+    z-index: 1;
+    right: 0;
+}
 
 		#main .toggle {
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
