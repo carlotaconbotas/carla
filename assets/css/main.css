@@ -132,6 +132,11 @@ input, select, textarea {
     z-index: -99;
     
 }
+			
+#main {
+	width: 20.5em;
+    
+}
 section.legend {
 padding: 0 2.25em 0 2.25em;
 }
