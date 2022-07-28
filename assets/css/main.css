@@ -1415,14 +1415,7 @@ i.fas.fa-cube {
     background-color: #fff;
     z-index: 0;
 }
-.new {
-    position: fixed;
-    background: #fff;
-    width: 69.5em;
-    height: 100%;
-    z-index: -99;
-    
-}
+
 section.legend {
 padding: 0 2.25em 0 2.25em;
 }
