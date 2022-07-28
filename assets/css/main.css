@@ -1286,6 +1286,9 @@ i.fas.fa-cube {
 			#viewer {
 				width: calc(100% - 19em);
 			}
+			img.shoppingcart {
+    
+  
 
 		}
 
@@ -1308,6 +1311,7 @@ i.fas.fa-cube {
 				body.fullscreen #viewer .inner .toggle {
 					opacity: 1;
 				}
+					
 
 		}
 
@@ -1374,7 +1378,7 @@ i.fas.fa-cube {
     position: fixed;
     background: #fff;
     width: 69.5em;
-    height: 55%;
+    height: 100%;
     z-index: -99;
     margin-top: 15%;
     margin-left: 1%;
@@ -1554,7 +1558,7 @@ a.dotted {
 	position: fixed;
     background: #fff;
   	width: 69.5em; 
-    height: 55%;
+    height: 100%;
     z-index: -99;
 	}
 	section.legend {
