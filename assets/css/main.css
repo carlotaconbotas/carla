@@ -109,7 +109,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background-color: #101010;
+		background-color: #FFF;
 		overflow: hidden;
 	}
 
@@ -1373,11 +1373,11 @@ i.fas.fa-cube {
 .new {
     position: fixed;
     background: #fff;
-    width: 50.5em;
+    width: 69.5em;
     height: 55%;
     z-index: -99;
     margin-top: 15%;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 .main-layout {
     font-family: "Wire One", Raleway, sans-serif;
@@ -1553,7 +1553,7 @@ a.dotted {
 	img.shoppingcart { 
 	position: fixed;
     background: #fff;
-  	width: 50.5em; 
+  	width: 69.5em; 
     height: 55%;
     z-index: -99;
 	}
