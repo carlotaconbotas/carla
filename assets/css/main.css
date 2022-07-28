@@ -124,11 +124,11 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
-			.new {
+.new {
     position: fixed;
     background: #fff;
-    width: 69.5em;
-    height: 100%;
+    width: 60.5em;
+    height: 90%;
     z-index: -99;
     
 }
