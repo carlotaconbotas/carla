@@ -124,6 +124,47 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
+			.new {
+    position: fixed;
+    background: #fff;
+    width: 69.5em;
+    height: 100%;
+    z-index: -99;
+    
+}
+section.legend {
+padding: 0 2.25em 0 2.25em;
+}
+.main-layout {
+    font-family: "Wire One", Raleway, sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+    font-size: 1em;
+    overflow-x: hidden;
+    margin: 0;
+    color: #333;
+    text-align: left;
+    background-color: #fff;
+}
+p {
+    margin: 0 0 0 0;
+    font-size: 2em;
+}
+.product_price {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0fbbad;
+    margin: 0;
+}
+p.modelos {
+    font-size: 19px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding-top: 0.6em;
+    margin-bottom: -0.1em;
+    text-align: center;
+}
 
 		}
 
@@ -1291,7 +1332,7 @@ i.fas.fa-cube {
   
 
 		}
-
+}
 		@media screen and (max-width: 980px) {
 
 			#viewer {
